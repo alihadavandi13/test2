@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Yekan;
+}
+/* roots */
+:root{
+    --bgborder: rgb(224,224,226);
+    --color1:rgb(12,12,12);
+    --color-2:rgb(98,102,109);
+}
+/* countainer */
+.wrapper{
+    width: 100%;
+   
+}
+/* font-family */
+@font-face {
+    font-family:Yekan ;
+    src: url("../fonts/iranyekanwebregular.e31c09af\ \(1\).woff2");
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
